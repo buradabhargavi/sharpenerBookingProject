@@ -3,7 +3,7 @@ body {
   background-color: bisque;
   margin: 0;
 }
-.conatiner {
+.container {
   width: 600px;
   padding: 0 10%;
   margin: 0 auto;
@@ -105,10 +105,21 @@ ul {
   gap: 10px;
 }
 
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 760px) {
+  .container {
+    width: 500px;
+    padding: 0 3%;
+    margin: 0 auto;
+  }
+  .mainContainer {
+    margin: 5% 10%;
+  }
+}
+@media screen and (max-width: 565px) {
   .container {
     width: 400px;
-    padding: 0 5%;
-    margin: 0 auto;
+  }
+  label {
+    font-size: 15px;
   }
 }
